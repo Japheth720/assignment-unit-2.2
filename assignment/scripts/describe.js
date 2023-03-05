@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we set our name to be 'Dane'
+// then we set an if statement checking if the name is EXACTLY 'Mary'
+// if name is 'Mary' then the console will log 'Hi, Mary!' 
+// if name is anything else, then it will write 'How do you do?' in the console
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// you create two variables, secret and code
+// the variable for code is set to 123
+// if the code is EXACTLY 123, then it will make the variable secret equal to the string 'super'
+// and the current variable for code, which is 123, will multiply by 2
+// now if the code is over 250, secret will now equal to the string 'duper'
+// lastly your console will log the value of secret
 
 //CODE
 /*
@@ -70,10 +72,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// isStudent is set to true (boolean), age is 34, and zip is 55407
+// the code is asking if isStudent is true AND zip is greater than 80000, it'll log 'You're a student on the West Coast!'
+// otherwise, if isStudent false OR the age is LESS than 30, it'll log 'What are your hobbies?'
+// if isStudent is true by itself, it'll log 'Welcome to Prime!'
+// if nothing meets the requirements above, then it'll log 'How about the weather?'
 
 //CODE
 /*
@@ -130,6 +133,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX colorOne should be noted as RED not mistakenly BLUE. Same goes in reverse for colorTwo.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -146,7 +150,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+//FIX '||' means OR. && is the proper symbols to use for AND
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,7 +163,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+//FIX age should be written first, and the sign should change to be >=. For age to be greater than or equal to minAge.
+//FIX the first console.log should be 'enter', it decides what happens IF age >= minAge. Else it would be 'no entry'
 if(minAge <= age) {
   console.log('no entry');
 } else {
